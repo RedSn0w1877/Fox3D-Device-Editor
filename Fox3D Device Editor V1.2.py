@@ -39,7 +39,7 @@ while True:
         )
 
         if confirm_response:
-            # User confirmed, proceed
+            
             print("Confirmed! Continuing...")
             print("Please note! I am not responsible for bricked devices, dead SD cards, or you getting sued because your alarm clock didn't wake you up.")
             print("If you did something stupid and point the finger at me, I will laugh at you. Wait 5 seconds.")
@@ -57,10 +57,10 @@ while True:
                         print("\nExtracting files...")
                     elif i == 70:
                         print("\nInstalling components and Fox3D Registries...")
-                    time.sleep(random.randint(200, 500) / 1000)  # Vary sleep time between 200 and 500 milliseconds
+                    time.sleep(random.randint(200, 500) / 1000)  
                 print("\nProcess completed!")
                 break
-        else:  # User canceled or encountered an error
+        else:  
             print("Confirmation failed. Please try again.")
     else:
         print("Sorry! Still under construction.")
